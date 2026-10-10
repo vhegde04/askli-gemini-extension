@@ -1,0 +1,24 @@
+{
+  "name": "askli",
+  "version": "1.0.0",
+  "description": "Plan and review evidence-backed customer interview studies while preserving the customer's audience and constraints.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "askli": {
+      "httpUrl": "https://www.askli.chat/api/mcp",
+      "timeout": 300000,
+      "includeTools": [
+        "list_studies",
+        "get_study_status",
+        "create_study",
+        "answer_clarification",
+        "get_plan",
+        "update_plan",
+        "confirm_plan",
+        "get_findings",
+        "analyze_now",
+        "get_transcript"
+      ]
+    }
+  }
+}
