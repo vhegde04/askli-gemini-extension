@@ -7,6 +7,12 @@
     "askli": {
       "httpUrl": "https://www.askli.chat/api/mcp",
       "timeout": 300000,
+      "oauth": {
+        "enabled": true,
+        "clientId": "8Fh1UvWFwLN5hg6y",
+        "scopes": ["profile"],
+        "redirectUri": "http://localhost:7777/oauth/callback"
+      },
       "includeTools": [
         "list_studies",
         "get_study_status",
